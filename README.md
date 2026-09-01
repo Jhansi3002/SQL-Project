@@ -1,11 +1,13 @@
 E-Commerce Database Management System
 
 📌 Project Overview
+
 This project is a relational E-Commerce Database Management System developed using SQL.
 The database is designed to manage essential e-commerce information including users, products, orders, order items, payments, and product reviews.
 The project demonstrates the use of database creation, table design, primary keys, foreign keys, data insertion, filtering, aggregation, and SQL JOIN operations.
 
 🎯 Objective
+
 The main objectives of this project are:
 Design a relational database for an e-commerce application.
 Store and manage customer information.
@@ -17,6 +19,7 @@ Retrieve meaningful information using SQL queries.
 Understand relationships between multiple database tables.
 
 🛠️ Technologies Used
+
 SQL
 Relational Database
 Primary Keys
@@ -29,6 +32,7 @@ COUNT()
 SUM()
 
 🗄️ Database Structure
+
 The database is named:
 ecommerce
 The project contains six main tables:
@@ -42,6 +46,7 @@ revives	Stores customer product reviews
 The tables are connected using primary and foreign key relationships.
 
 🔗 Database Relationships
+               
                 USER
                  |
                  | user_id
@@ -69,6 +74,7 @@ An order can have payment information.
 Users can submit reviews for products.
 
 📋 Table Details
+
 1. Users
 The userr table stores customer information such as:
 User ID
@@ -196,6 +202,7 @@ GROUP BY user_id;
 The project also includes queries for filtering reviews by rating and retrieving payment information.
 
 🔗 JOIN Operations
+
 INNER JOIN
 The project uses an INNER JOIN to retrieve users together with their corresponding orders.
 
@@ -237,6 +244,7 @@ INNER JOIN queries
 LEFT JOIN queries
 
 📚 Key Learnings
+
 Through this project, I gained practical experience in:
 
 Creating and managing relational databases
@@ -250,6 +258,7 @@ Understanding relationships between multiple tables
 Retrieving useful information from structured data
 
 📁 Project Structure
+
 ecommerce-database/
 │
 ├── ecommerce.sql
@@ -258,6 +267,7 @@ ecommerce-database/
 The ecommerce.sql file contains the database creation, table definitions, sample data, and SQL queries used in the project.
 
 🚀 Future Improvements
+
 Add stored procedures
 Add database views
 Add triggers for inventory management
@@ -267,6 +277,7 @@ Add an API layer for accessing the database
 Implement authentication and authorization
 
 📌 Project Status
+
 Completed
 
 This project demonstrates the design and querying of a relational e-commerce database using SQL.
